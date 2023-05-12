@@ -134,7 +134,10 @@ s4 = String.Concat(s4.OrderBy(ch => ch));
 Console.WriteLine(s4);
 
 
-// 3 задание 
+// 4 задание (не знаю как решить)
+Console.Write($"Напишите 1 значение:  ");
+string s5 = Console.ReadLine();
+Console.WriteLine(String.ToLower(s5));
 
 
 
