@@ -1,6 +1,6 @@
 ﻿
 using System.Text;
-
+/*
 char c = 'A';
 Console.WriteLine(c);
 
@@ -21,7 +21,7 @@ string s2 = "BB";
 
 
 string[] cities = { "Kyiv", "Lviv", "Dnipro", "Odesa" };
-
+*/
 /*
 StringBuilder allCities = new StringBuilder();
 
@@ -34,13 +34,16 @@ foreach (var item in cities)
 Console.WriteLine(allCitites);
 
 */
+
+
+/*
 string newString = address.Replace("Zaporozskaya", "Chreshatik", StringComparison.InvariantCultureIgnoreCase);
 Console.WriteLine(address);
 
 newString = newString.Insert(newString.Length, ",Planet Earth");
 newString = newString.Substring(0, 2);
 Console.WriteLine(newString);
-
+*/
 /*
 if (!string.IsNullOrWhiteSpace(address))
 {
@@ -82,7 +85,7 @@ foreach (var item in address)
 //Console.WriteLine(s2);
 
 //GetCharInfo(c);
-
+/*
 var inputString = Console.ReadLine();
 
 var splittedInput = inputString.Trim().Split(" ");
@@ -96,3 +99,48 @@ foreach (var item in splittedInput)
         resultArray[i++] = parsedResult;  
     }
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+//HOMEWORK
+//1 задание
+Console.Write($"Напишите 1 значение:  ") ;
+string s1 = Console.ReadLine();
+Console.Write($"Напишите 2 значение:  ");
+string s2 = Console.ReadLine();
+
+Console.WriteLine(String.Equals(s1, s2));
+
+
+// 2 задание
+Console.WriteLine($"Напишите значение:  ");
+string s3 = Console.ReadLine();
+Console.WriteLine("1) The length of '{0}' is {1}", s3, s3.Length);
+// int length = s3.Length;
+
+//3 задание
+Console.Write($"Напишите 1 значение:  ");
+string s4 = Console.ReadLine();
+s4 = String.Concat(s4.OrderBy(ch => ch));
+Console.WriteLine(s4);
+
+
+// 3 задание 
+
+
+
+
+
+
+
+
+
